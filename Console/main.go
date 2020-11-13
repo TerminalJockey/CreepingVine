@@ -191,7 +191,7 @@ func listDrones() {
 }
 
 func connectDB() (client *mongo.Client, Drones *mongo.Collection, ctx context.Context) {
-	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb://192.168.1.112:7895"))
+	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb://x.x.x.x:7895"))
 	if err != nil {
 		log.Println(err)
 	}
