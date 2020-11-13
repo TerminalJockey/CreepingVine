@@ -84,7 +84,7 @@ func initDrone() (Drone genericDrone) {
 
 func callHome(Drone genericDrone) (respDrone genericDrone) {
 
-	conn, err := net.Dial("tcp", "192.168.1.105:7896")
+	conn, err := net.Dial("tcp", "x.x.x.x:7896")
 	if err != nil {
 		log.Println(err)
 	}
