@@ -16,3 +16,17 @@ migrate our admin panels around the net and evade capture. Current plan is to im
 http/https comms, and probably a straight tcp connection, might play around with a custom p2p deal as well.
 
 Imagine ivy, creeping up a brick wall, finding foodholds and being a real pain in the ass to kill. 
+
+- [ ] Front End/Web Panel
+- [x] cross platform implant
+- [x] cli control panel
+- [x] command server
+- [x] mongodb integration(may be switching to mariadb)
+- [ ] obfuscation for implants
+- [ ] migratable command node
+- [x] tcp comms
+- [ ] dns comms
+- [ ] http/s comms
+- [ ] promotable nodes
+- [ ] encryption
+- [ ] plugins
